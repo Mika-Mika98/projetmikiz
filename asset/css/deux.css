@@ -1,0 +1,236 @@
+body{
+    background: linear-gradient(#015a7c ,white);
+}
+*{ margin:23px; padding:1px; box-sizing: border-box;}
+.slideshow-container{
+    position: relative;
+    background: #f1f1f1;
+}
+
+.mySlides{
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.dot-container{
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.author{
+    color: cornflowerblue;
+}
+
+img{
+    width: 90%;
+}
+
+#A{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.un{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% /5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#ab{
+    padding: 60px;
+}
+
+#B{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.deux{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% /5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#ca{
+    padding: 60px;
+}
+
+#C{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.trois{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% / 5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#D{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;  
+}
+
+.quatre{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% / 5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#E{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cinq{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% / 5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#F{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.six{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% / 5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#G{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sept{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% / 5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#H{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.huit{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% /5%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#I{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.neuf{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 8px rgb(32, 31, 31);
+    border-radius: 10% /5%;
+    background-color: white;
+    border: 2px solid black;
+}
